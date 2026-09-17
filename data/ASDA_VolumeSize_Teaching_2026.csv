@@ -1,0 +1,78 @@
+# ASDA_VolumeSize_Teaching_2026.csv
+#
+# SIMULATED TEACHING DATASET - not market data.
+#
+# Applied Statistical Data Analysis (FIN), FHNW School of Business
+# Module 10: Logs, Elasticities and Quadratic Terms
+#
+# The file is one exact realisation of the data-generating process stated in the
+# module's Lecture Prep,
+#
+#     ln(turnover) = 1.20 + 1.08 * ln(mcap) + 0.35 * D_SMI + u ,    n = 50
+#
+# calibrated to the order of magnitude of the Swiss market: 50 firms between
+# roughly 3 and 50 bn CHF market capitalisation, 20 of them index members.
+# Firms are numbered, not named, precisely because they are not real companies.
+#
+# Why a simulated file: the lecture, the exercises and the solutions all quote
+# the same estimates, so the dataset behind them has to be fixed. A live
+# download changes every day and would make the printed output impossible to
+# reproduce. Loading this file reproduces every number in the module exactly.
+#
+# columns
+#   firm_id          anonymous firm label
+#   mcap_bn_chf      market capitalisation, bn CHF
+#   turnover_m_chf   average daily turnover, m CHF
+#   D_SMI            1 = blue-chip index member, 0 = mid cap
+#
+firm_id,mcap_bn_chf,turnover_m_chf,D_SMI
+CH32,17.653,61.9889,0
+CH28,13.9206,43.7584,0
+CH44,36.0001,107.1229,1
+CH34,19.8792,102.4165,1
+CH37,23.7559,130.0194,1
+CH10,4.78,16.6203,0
+CH38,25.2093,118.8075,1
+CH30,15.6761,73.6267,1
+CH14,6.0617,21.3262,0
+CH49,48.4458,366.9147,1
+CH04,3.3472,12.6212,0
+CH26,12.3617,41.6853,0
+CH06,3.7694,14.3123,0
+CH05,3.552,13.3411,0
+CH31,16.6352,88.1399,0
+CH19,8.1572,30.622,0
+CH48,45.6526,228.1926,1
+CH16,6.8261,27.5447,0
+CH33,18.7331,189.998,1
+CH40,28.3885,123.5573,1
+CH43,33.9245,257.8956,1
+CH03,3.1543,12.1721,0
+CH08,4.2447,17.0885,0
+CH07,4.0,15.8555,0
+CH50,51.4098,703.1371,1
+CH24,10.9773,43.1208,0
+CH20,8.6563,33.1421,0
+CH13,5.7122,21.4492,0
+CH39,26.7517,167.9086,1
+CH45,38.2027,347.9958,1
+CH18,7.6869,32.6407,0
+CH47,43.0204,347.5423,1
+CH02,2.9724,11.3858,0
+CH21,9.186,42.4589,0
+CH29,14.7723,72.9813,1
+CH12,5.3828,20.2467,0
+CH36,22.3862,129.7963,1
+CH11,5.0725,17.1727,0
+CH27,13.118,62.3989,0
+CH42,31.9685,169.5439,1
+CH15,6.4325,25.0597,0
+CH17,7.2437,25.1372,0
+CH35,21.0955,187.9282,1
+CH41,30.1254,174.0719,1
+CH09,4.5044,16.9751,0
+CH22,9.748,40.7883,0
+CH23,10.3444,50.6408,0
+CH01,2.801,11.4266,0
+CH46,40.5401,219.7257,1
+CH25,11.6489,36.1404,0
